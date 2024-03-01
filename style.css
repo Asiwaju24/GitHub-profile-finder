@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Geologica";
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(244, 244, 200, 0.164);
+}
+.container{
+  text-align: center;
+  width: 80%;
+}
+.title{
+  margin-block-end: 2rem;
+  font-size: 28px;
+}
+.title span{
+  color: darkblue;
+  font-size: 30px;
+}
+input{
+  padding: 8px;
+  margin-bottom: 10px;
+}
+button{
+  padding: 8px 20px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgba(0, 138, 184, 0.675);
+  box-shadow: 4px 4px 20px black;
+}
+.profile{
+  margin-top: 10px;
+ border: 1px solid #ccc;
+  padding: 20px;
+  text-transform: capitalize;
+}
+.profile p{
+  margin-block-end: 10px;
+}
+.profile a{
+  padding: 8px 12px;
+  text-decoration: none;
+  background: rgb(148, 133, 243);
+  border-radius: 5px;
+  color: black;
+}
+.profile a:hover{
+  background-color: rgba(88, 71, 178, 0.698);
+  color: white;
+}
